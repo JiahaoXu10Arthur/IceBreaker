@@ -3,18 +3,18 @@ import { useNavigate } from 'react-router-dom';
 import './Homepage.css';
 
 const Homepage: React.FC = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const [log, setLog] = useState<string | null>(null);
 
   const handleCreateRoom = () => {
     setLog('Create Room clicked');
     const holderName = 'John Doe';
-    navigate('/CreateRoomPage');
+    // navigate('/CreateRoomPage');
   };
 
   const handleJoinRoom = () => {
     setLog('Join Room clicked');
-    navigate('/JoinRoomPage');
+    // navigate('/JoinRoomPage');
   };
 
   return (
