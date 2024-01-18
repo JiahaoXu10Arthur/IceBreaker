@@ -8,7 +8,7 @@ import CreateRoomPage from './CreateRoomPage';
 const App = () => {
   return (
     <div className='app'>
-      <Router>
+      <Router basename="/project/2023/60021/g236002112/zixi">
         <div>
           <Routes>
             <Route path='/' element={<Homepage />} />
