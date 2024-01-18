@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import Homepage from './Homepage';
 import JoinRoomPage from './JoinRoomPage';
@@ -8,6 +8,7 @@ import WaitRoomPage from './WaitRoomPage';
 import UserProfilePage from './UserProfilePage';
 import reportWebVitals from './reportWebVitals';
 import CreateRoomPage from './CreateRoomPage';
+// import { HashRouter as Router } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
