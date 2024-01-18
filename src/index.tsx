@@ -1,13 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
-import Homepage from './Homepage';
-import JoinRoomPage from './JoinRoomPage';
-import WaitRoomPage from './WaitRoomPage';
-import UserProfilePage from './UserProfilePage';
 import reportWebVitals from './reportWebVitals';
-import CreateRoomPage from './CreateRoomPage';
+import App from './App';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -25,9 +21,12 @@ const root = ReactDOM.createRoot(
 //     </Router>
 //   </React.StrictMode>
 // );
+
 root.render(
-  <React.StrictMode>
-    <Homepage />
-  </React.StrictMode>
-);
+    <React.StrictMode>
+      <Router>
+        <App />
+      </Router>
+    </React.StrictMode>
+  );
 reportWebVitals();
