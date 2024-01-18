@@ -18,7 +18,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/CreateRoomPage" element={<CreateRoomPage />} />
-        <Route path="/JoinRoompage" element={<JoinRoomPage />} />
+        <Route path="/JoinRoomPage" element={<JoinRoomPage />} />
         <Route path="/WaitRoomPage" element={<WaitRoomPage />} />
         <Route path="/UserProfilePage" element={<UserProfilePage />} />
       </Routes>
