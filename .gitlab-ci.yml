@@ -10,7 +10,6 @@ build-app:
   stage: build
   script:
     - npm install
-    - npm install react-router-dom
     - CI=false npm run build
   artifacts:
     paths:
